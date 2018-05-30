@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
     $(".contents").click(function() {
-      $(".flashcard", this).toggle();
-      $(".info", this).toggle();
+      $(".flashcard", this).slideToggle();
+      $(".info", this).slideToggle();
     });
 });
 
