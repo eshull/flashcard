@@ -1,5 +1,10 @@
+body {
+  background-color: #4FD4FF;
+}
+
 .row {
-  width: 100%auto;
+  width: 100%;
+  margin-left: 20px;
   }
 
 .panel-header {
@@ -21,6 +26,15 @@
   padding-right: 20px;
 }
 
+.contents {
+
+  margin-left: 9px;
+}
+.col-sm-3 {
+  width: 24%;
+}
+
+
 .panel {
   height: 300px;
 }
@@ -35,8 +49,16 @@ p {
   overflow: scroll;
   }
 
+
+
 @media only screen and (max-width: 1950px) {
   .panel-body p {
     font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .col-sm-3 {
+    width: auto;
   }
 }
