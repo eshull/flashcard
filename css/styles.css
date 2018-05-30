@@ -49,6 +49,16 @@ p {
   overflow: scroll;
   }
 
+  .jumbotron {
+    text-align: center;
+    background-color: #586EE8;
+    color: white;
+  }
+
+  footer {
+    font-size: 26px;
+  }
+
 
 
 @media only screen and (max-width: 1950px) {
