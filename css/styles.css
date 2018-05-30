@@ -1,0 +1,40 @@
+.row {
+  width: 100%auto;
+  }
+
+.panel-header {
+  margin-left: 15px;
+}
+
+.flashcard {
+  text-align: center;
+}
+
+.panel-body {
+  margin-top: 100px;
+}
+
+.panel-body p {
+  font-size: 30px;
+  padding-top: 50px;
+  margin-left: 20px;
+  padding-right: 20px;
+}
+
+.panel {
+  height: 300px;
+}
+
+p {
+  margin: -140px 0 10px;
+}
+
+.info {
+  display: none;
+  }
+
+@media only screen and (max-width: 1950px) {
+  .panel-body p {
+    font-size: 150%;
+  }
+}
